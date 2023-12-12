@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>DrawDock</title>
+        <!-- Bootstrap CSS -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+        <!--ReactJS-->
+        <script src="https://unpkg.com/react@18/umd/react.development.js" crossorigin></script>
+        <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js" crossorigin></script>
+        <script src="https://unpkg.com/@babel/standalone/babel.min.js" crossorigin></script>
+        <!--Link to specific css styles-->
+        <link href="css/index.css" rel="stylesheet">
+        <link href="css/styles.css" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <img id="logo_img" src="images/logo.png" alt="logo">
+            <ul id="nav">
+                <li><a href="about.html" class="link-secondary link-underline-opacity-0 lead text-primary">About</a></li>
+                <li><a href="contact.html" class="link-secondary link-underline-opacity-0 lead text-primary">Contact</a></li>
+            </ul>
+            <img id="profile_img" src="images/profile.png" alt="profile_avatar">
+        </header>
+        <div class="title_container mx-auto my-3" role="banner">
+            <img src="images/title.png" alt="title">
+            <form class="search_container" role="search">
+                <div class="search_input">
+                    <i id="searchIcon"></i>
+                    <input type="text" aria-label="Search" name="search_field">
+                </div>
+            </form>
+        </div>
+        <div class="container-fluid my-5">
+            <div class="row align-items-center justify-content-center">
+                <div class="col text-center">
+                    <a href="#icon" class="category_link">Icons</a>
+                </div>
+                <div class="col text-center">
+                    <a href="#photography" class="category_link">Photography</a>
+                </div>
+                <div class="col text-center">
+                    <a href="#" class="category_link">Characters</a>
+                </div>
+                <div class="col text-center">
+                    <a href="#" class="category_link">Game</a>
+                </div>
+            </div>
+        </div>
+        <div class="gallery_container m-3" role="main">
+            <div class="mx-5 my-4" id="icon">
+                <h2 class="heading text-primary m-2">Icons</h2>
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-md">
+                            <picture>
+                                <source srcset="images/c-1-1920.png"
+                                        media="(min-width: 960px)">
+                                <source srcset="images/c-1-960.png"
+                                        media="(min-width: 480px)">
+                                <img src="images/c-1.png"
+                                     alt="C-1 Asset">
+                            </picture>
+                        </div>
+                        <div class="col-md">
+                            <picture>
+                                <source srcset="images/c-2-1920.png"
+                                        media="(min-width: 960px)">
+                                <source srcset="images/c-2-960.png"
+                                        media="(min-width: 480px)">
+                                <img src="images/c-2.png"
+                                     alt="C-2 Asset">
+                            </picture>
+                        </div>
+                        <div class="col-md">
+                            <picture>
+                                <source srcset="images/c-3-1920.png"
+                                        media="(min-width: 960px)">
+                                <source srcset="images/c-3-960.png"
+                                        media="(min-width: 480px)">
+                                <img src="images/c-3.png"
+                                     alt="C-2 Asset">
+                            </picture>
+                        </div>
+                        <div class="col-md">
+                            <picture>
+                                <source srcset="images/c-4-1920.png"
+                                        media="(min-width: 960px)">
+                                <source srcset="images/c-4-960.png"
+                                        media="(min-width: 480px)">
+                                <img src="images/c-4.png"
+                                     alt="C-2 Asset">
+                            </picture>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="mx-5 my-4" id="photography">
+                <h2 class="heading text-primary m-2">Photography</h2>
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-md">
+                            <picture>
+                                <source srcset="images/a-1-1920.jpg"
+                                        media="(min-width: 960px)">
+                                <source srcset="images/a-1-960.jpg"
+                                        media="(min-width: 480px)">
+                                <img src="images/a-1.jpg"
+                                     alt="A-1 Asset">
+                            </picture>
+                        </div>
+                        <div class="col-md">
+                            <picture>
+                                <source srcset="images/a-2-1920.jpg"
+                                        media="(min-width: 960px)">
+                                <source srcset="images/a-2-960.jpg"
+                                        media="(min-width: 480px)">
+                                <img src="images/a-2.jpg"
+                                     alt="A-2 Asset">
+                            </picture>
+                        </div>
+                        <div class="col-md">
+                            <picture>
+                                <source srcset="images/a-3-1920.jpg"
+                                        media="(min-width: 960px)">
+                                <source srcset="images/a-3-960.jpg"
+                                        media="(min-width: 480px)">
+                                <img src="images/a-3.jpg"
+                                     alt="A-3 Asset">
+                            </picture>
+                        </div>
+                        <div class="col-md">
+                            <picture>
+                                <source srcset="images/a-4-1920.jpg"
+                                        media="(min-width: 960px)">
+                                <source srcset="images/a-4-960.jpg"
+                                        media="(min-width: 480px)">
+                                <img src="images/a-4.jpg"
+                                     alt="A-4 Asset">
+                            </picture>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md">
+                            <picture>
+                                <source srcset="images/a-5-1920.jpg"
+                                        media="(min-width: 960px)">
+                                <source srcset="images/a-5-960.jpg"
+                                        media="(min-width: 480px)">
+                                <img src="images/a-5.jpg"
+                                     alt="A-5 Asset">
+                            </picture>
+                        </div>
+                        <div class="col-md">
+                            <picture>
+                                <source srcset="images/a-6-1920.jpg"
+                                        media="(min-width: 960px)">
+                                <source srcset="images/a-6-960.jpg"
+                                        media="(min-width: 480px)">
+                                <img src="images/a-6.jpg"
+                                     alt="A-6 Asset">
+                            </picture>
+                        </div>
+                        <div class="col-md">
+                            <picture>
+                                <source srcset="images/a-7-1920.jpg"
+                                        media="(min-width: 960px)">
+                                <source srcset="images/a-7-960.jpg"
+                                        media="(min-width: 480px)">
+                                <img src="images/a-7.jpg"
+                                     alt="A-7 Asset">
+                            </picture>
+                        </div>
+                        <div class="col-md">
+                            <picture>
+                                <source srcset="images/a-8-1920.jpg"
+                                        media="(min-width: 960px)">
+                                <source srcset="images/a-8-960.jpg"
+                                        media="(min-width: 480px)">
+                                <img src="images/a-8.jpg"
+                                     alt="A-8 Asset">
+                            </picture>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center">
+                <button class="button">More</button>
+            </div>
+        </div>
+        <script type="text/babel">
+            const svg = <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16"><path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0"/></svg>
+            const container = document.getElementById('searchIcon');
+            const root = ReactDOM.createRoot(container);
+            root.render(svg)
+          </script>
+        <footer class="text-center" role="contentinfo">
+            <p>© 2023 Ailin Dong. All Rights Reserved. <a href="#top">Back to Top</a></p>
+        </footer>
+        <!--Skip links that can be accessed by TAB-->
+        <ul class="skip-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </body>
+</html> 

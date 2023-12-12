@@ -1,0 +1,44 @@
+.title_container {
+	width: 80%;
+}
+
+.title_container img {
+	width: 100%;
+}
+
+.search_container {
+	border: 2px solid black;
+	border-radius: 20px;
+	background: white;
+	margin: 20px auto;
+	width: 80%;
+}
+
+.search_input {
+	margin: 5px 10px;
+}
+
+.search_input input {
+	border: none;
+	width: calc(98% - 20px);
+}
+
+.search_input input:focus {
+	outline: none;
+}
+
+.category_link {
+	border: none;
+	border-radius: 25px;
+	width: 150px;
+	padding: 10px 30px;
+	color: white;
+	background: #97d1d0;
+	text-decoration: none;
+}
+
+.gallery_container img {
+	width: 100%;
+	margin: 10px 0;
+}
+

@@ -1,0 +1,46 @@
+.title_container h1 {
+	font-size: 64px;
+	font-family: 'Advent Pro', sans-serif;
+}
+
+.title_container h2 {
+	font-size: 48px;
+	font-family: 'Playpen Sans', cursive;
+}
+
+.content_container h3 {
+	font-family: 'Playpen Sans', cursive;
+}
+
+.title_container p {
+	font-family: 'Concert One', sans-serif;
+}
+
+.p_container {
+	background: white;
+	border-radius: 50px;
+}
+
+.p_container p {
+	font-family: 'Playpen Sans', cursive;
+	font-size: 24px;
+}
+
+.img_container img {
+	width: 100%;
+}
+
+.faq_container h3 {
+	margin-left: 50px;
+	margin-bottom: 20px;
+}
+
+.question_container {
+	background: #d2e1e0;
+	padding: 30px;
+}
+
+.list_container {
+	background: white;
+	padding: 30px;
+}
